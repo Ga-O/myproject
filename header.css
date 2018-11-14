@@ -1,0 +1,65 @@
+header{
+    height:61px;
+    background: rgb(0,0,0);
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    font-family: PingFangSc-light,Arial,"Microsoft YaHei UI","Microsoft Yahei","Lantinghei SC","Hiragino Sans GB","Helvetica Neue",Helvetica,Arial,sans-serif;
+    min-width: 1280px;
+    font-size:14px;
+}
+
+.top{
+    width:1280px;
+    margin:0 auto;
+    color:#fff;
+}
+.logo-link{
+    width:90px;
+    float:left;
+    margin-top:16px;
+}
+nav:before{
+    content:"";
+}
+nav>ul>li>a{
+    color:#fff;
+    cursor:pointer;
+    display:block;
+}
+nav>ul>li>a:hover {
+    color: #108CEE;
+    text-decoration: none;
+    display:block;
+}
+.top-nav-left,.top-nav-right{
+    float:left;
+    list-style: none;
+    line-height: 61px;
+    margin-bottom:0;
+}
+.top-nav-left>li,.top-nav-right>li{
+    float:left;
+ }
+.top-nav-right{
+    float:right;
+}
+.top-nav-left>li>a,.top-nav-right>li>a{
+    margin-left:25px;
+    display:block;
+}
+.top-nav-control{
+    border:1px solid #979797;
+    width:120px;
+    height:30px;
+    text-align:center;
+    line-height:30px;
+    margin-top:16px;
+}
+.top-nav-control:hover{
+    background:#108CEE;
+    color:#fff;
+}
+
+
+
+
+
