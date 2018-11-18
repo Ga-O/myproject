@@ -3,10 +3,9 @@ header{
     background: rgb(0,0,0);
     border-bottom: 1px solid rgba(255,255,255,0.1);
     font-family: PingFangSc-light,Arial,"Microsoft YaHei UI","Microsoft Yahei","Lantinghei SC","Hiragino Sans GB","Helvetica Neue",Helvetica,Arial,sans-serif;
-    min-width: 1280px;
+
     font-size:14px;
 }
-
 .top{
     width:1280px;
     margin:0 auto;
@@ -36,6 +35,14 @@ nav>ul>li>a:hover {
     line-height: 61px;
     margin-bottom:0;
 }
+.search{
+    margin-left:20px;
+    float:left;
+    line-height:60px;
+    cursor:pointer;
+    color:#fff;
+}
+
 .top-nav-left>li,.top-nav-right>li{
     float:left;
  }
@@ -57,6 +64,27 @@ nav>ul>li>a:hover {
 .top-nav-control:hover{
     background:#108CEE;
     color:#fff;
+}
+@media screen and (max-width: 1024px){
+    header{
+        font-size:10px;
+    }
+    .top{
+        width:850px;
+    }
+    .logo-link{
+        width:80px;
+        margin-top:10px;
+    }
+    .top-nav-left>li>a,.top-nav-right>li>a{
+        margin-left:10px;
+    }
+    .top-nav-control{
+        width:100px;
+        height:25px;
+        line-height:25px;
+        margin-top:12px;
+    }
 }
 
 

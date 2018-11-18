@@ -1,0 +1,140 @@
+footer{
+    height:400px;
+    background: #232526;
+}
+div.container{
+   padding:0;
+}
+h6,h5{
+    color:#fff;
+}
+div.container a{
+    color:#a6a7aa;
+    font-size:12px;
+    display:block;
+}
+div.footer_nav{
+    margin-top:50px;
+}
+div.footer_nav,div.footer_nav_mid{
+    display:flex;
+}
+div.footer_nav_left{
+    width:30%;
+}
+div.footer_nav_mid{
+    width:45%;
+}
+div.footer_nav_left>h6,div.footer_nav_mid>div>h6{
+    margin-bottom:20px;
+}
+div.footer_nav_left>a,div.footer_nav_mid>div>a{
+    margin-top:5px;
+}
+div.footer_nav_right>p{
+    color:#a6a7aa;
+    font-size:12px;
+}
+div.footer_nav_right{
+    margin-top:10px;
+}
+div.footer_nav_right img{
+    width:40px;
+    height:40px;
+    margin-top:30px;
+}
+.footer_link{
+    border-top:1px solid #fff;
+    border-bottom:1px solid #fff;
+    margin-top:30px;
+}
+
+.footer_link>a{
+    float:left;
+    color:#fff!important;
+}
+.footer_link ul{
+    list-style: none;
+    display:flex;
+}
+#footer_parent:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.footer_link>a,.footer_link ul{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.footer_trip{
+    color:#fff;
+    margin-top: 30px;
+    font-size:12px;
+}
+div.footer_trip>a{
+    display:inline-block;
+    color:#fff;
+    font-weight:400;
+}
+.footer_link>ul>li{
+    margin-left:36px;
+}
+@media screen and (max-width: 1024px) {
+    footer{
+        height:400px;
+    }
+    div.container a{
+        font-size:12px;
+    }
+    div.footer_nav{
+        margin-top:50px;
+    }
+    div.footer_nav_left{
+        width:32%;
+        margin-left:10px;
+    }
+    div.footer_nav_mid{
+        width:50%;
+    }
+    div.footer_nav_left>h6,div.footer_nav_mid>div>h6{
+        margin-bottom:20px;
+    }
+    div.footer_nav_left>a,div.footer_nav_mid>div>a{
+        margin-top:5px;
+    }
+    div.footer_nav_right>p{
+        font-size:12px;
+    }
+    div.footer_nav_right{
+        margin-top:10px;
+    }
+    div.footer_nav_right img{
+        width:30px;
+        height:30px;
+        margin-top:30px;
+    }
+    .footer_link{
+        margin-top:30px;
+    }
+
+    .footer_link>a{
+        float:left;
+    }
+    .footer_link>a,.footer_link ul{
+        margin-top:20px;
+        margin-bottom:20px;
+    }
+    .footer_trip{
+        color:#fff;
+        margin-top:30px;
+        font-size:12px;
+    }
+    div.footer_trip>a{
+        display:inline-block;
+        color:#fff;
+        font-weight:400;
+    }
+    .footer_link>ul>li{
+        margin-left:20px;
+    }
+}
