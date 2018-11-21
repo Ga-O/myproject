@@ -79,7 +79,7 @@ div.footer_trip>a{
 .footer_link>ul>li{
     margin-left:36px;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1020px) {
     footer{
         height:400px;
     }
