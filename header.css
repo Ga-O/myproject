@@ -1,13 +1,12 @@
 header{
     height:61px;
-    background: rgb(0,0,0);
+    background: rgba(0,0,0,1);
     border-bottom: 1px solid rgba(255,255,255,0.1);
     font-family: PingFangSc-light,Arial,"Microsoft YaHei UI","Microsoft Yahei","Lantinghei SC","Hiragino Sans GB","Helvetica Neue",Helvetica,Arial,sans-serif;
-
     font-size:14px;
 }
 .top{
-    width:1280px;
+    width:1180px;
     margin:0 auto;
     color:#fff;
 }
@@ -16,8 +15,10 @@ header{
     float:left;
     margin-top:16px;
 }
-nav:before{
+nav:after{
     content:"";
+    display:block;
+    clear:both;
 }
 nav>ul>li>a{
     color:#fff;
@@ -65,7 +66,7 @@ nav>ul>li>a:hover {
     background:#108CEE;
     color:#fff;
 }
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1020px){
     header{
         font-size:10px;
     }
